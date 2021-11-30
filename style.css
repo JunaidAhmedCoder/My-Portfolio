@@ -14,6 +14,7 @@
 }
 html{
     background: black;
+    scroll-behavior: smooth;
 }
 nav{
     display: flex;
@@ -154,7 +155,7 @@ nav ul li a :hover{
     padding-bottom: 5%;
 }
 .contactclass{
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     padding: 40px 100px;
 }
@@ -318,7 +319,7 @@ nav ul li a :hover{
     text-align: center;
     color: #fff;
     padding: 1rem;
-    position: relative;
+    /*position: relative;*/
 }
 .headerskills::after{
     content: '';
@@ -415,7 +416,7 @@ nav ul li a :hover{
     {
         padding: 20px;
     }
-    .box{
+    .boxcontact{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
