@@ -487,7 +487,7 @@ nav ul li a :hover{
     }
     .contact {
         padding: 0px;
-        background: #fff;
+        /*background: #fff;*/
         box-shadow: 0 5px 35px rgb(0 0 0 / 15%);
         margin: 5%;
     }
