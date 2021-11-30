@@ -67,7 +67,7 @@ nav ul li a :hover{
 }
 .textbox{
     margin-top: 0%;
-    text-align: cen5ter;
+    text-align: center;
     margin-left: 43%;
     font-size: 32px;
     letter-spacing: 1px;
@@ -475,6 +475,16 @@ nav ul li a :hover{
         width: 50%;
         margin-right: 50%;
     }
+    .textbox {
+        margin-top: 0%;
+        text-align: center;
+        margin-left: 32%;
+        font-size: 32px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        color: white;
+        display: inline-block;
+    }
 }
 @media((max-width: 1200px)and(min-width: 991px)){
     .matter {
@@ -506,7 +516,7 @@ nav ul li a :hover{
     }
     .textbox {
         margin-top: 0%;
-        text-align: cen5ter;
+        text-align: center;
         margin-left: 32%;
         font-size: 32px;
         letter-spacing: 1px;
