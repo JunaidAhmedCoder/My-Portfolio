@@ -317,7 +317,8 @@ nav ul li a :hover{
 }
 .headerskills{
     text-align: center;
-    color: #fff;
+    color: firebrick;
+    font-size: 30px;
     padding: 1rem;
     /*position: relative;*/
 }
@@ -454,6 +455,25 @@ nav ul li a :hover{
     .containerskills{
         grid-template-columns: repeat(2,1fr);
         padding: 2rem 50px;
+    }
+    #Homesec h1 {
+        color: white;
+        padding-top: 40%;
+        /* margin-top: 50%; */
+        margin-left: 37%;
+        font-size: 64px;
+        margin: 0 0 24px;
+        text-align: center;
+    }
+    nav ul {
+        flex: 1;
+        text-align: center;
+        padding-right: 40px;
+        /* align-items: center; */
+    }
+    .Myimgclass {
+        width: 50%;
+        margin-right: 50%;
     }
 }
 @media((max-width: 1200px)and(min-width: 991px)){
