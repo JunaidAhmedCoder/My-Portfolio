@@ -504,6 +504,16 @@ nav ul li a :hover{
         background-size: cover;
         width: 100%;
     }
+    .textbox {
+        margin-top: 0%;
+        text-align: cen5ter;
+        margin-left: 32%;
+        font-size: 32px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        color: white;
+        display: inline-block;
+    }
 }
 @media(max-width: 650px){
     .containerskills{
