@@ -12,6 +12,19 @@
     padding: 0 ;
     position: relative;
 }
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 html{
     background: black;
     scroll-behavior: smooth;
@@ -24,6 +37,7 @@ nav{
     padding: 30px 0 10px;
     position: fixed;
     background-color: black;
+    z-index: 2;
 }
 nav ul{
     flex: 1;
@@ -158,6 +172,7 @@ nav ul li a :hover{
     /*position: relative;*/
     width: 100%;
     padding: 40px 100px;
+    z-index: 0;
 }
 .contactclass .title{
     display: flex;
