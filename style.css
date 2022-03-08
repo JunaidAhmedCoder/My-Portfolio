@@ -550,4 +550,14 @@ nav ul li a :hover{
     .containerskills{
         grid-template-columns: 1;
     }
+    nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 0 10px;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+    }
 }
